@@ -1,6 +1,9 @@
 name: Build MortgagePath APK
 
 on:
+  push:
+    branches:
+      - chatgpt-mortgage-path-build-20260926
   pull_request:
     branches:
       - main
